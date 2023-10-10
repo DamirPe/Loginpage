@@ -186,7 +186,7 @@ body{
 
 .phone{
     width: 20px;
-    height: 30px;
+    height: 32px;
     margin: 5px;
     border-radius: 2px;
     background-color: var(--zelena);
@@ -205,4 +205,10 @@ body{
     width: 2px;
     margin-left: 7px;
     margin-top: -2px;
+}
+
+.footer{
+    background-color: red;
+    position: fixed;
+    bottom: 0;
 }
