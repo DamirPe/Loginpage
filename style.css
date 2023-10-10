@@ -176,6 +176,10 @@ body{
     border:1px solid var(--zelena);
 }
 
+input:focus{
+    border:3px solid var(--zelena);
+}
+
 .call-back{
     background: white;
     color: var(--zelena);
