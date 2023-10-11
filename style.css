@@ -5,6 +5,7 @@
 
 :root{
     --zelena: rgb(0, 129, 32);
+    --index: 1;
 }
 
 body{
@@ -303,6 +304,8 @@ input:focus{
         right: 0;
 
         background-color: #333;
+
+        z-index: var(--index);
     }
 
     .phone-white{
@@ -338,5 +341,15 @@ input:focus{
         color: white;
     }
 
-}
+    .meni-left{
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 60%;
+        background-color: #333;
 
+
+    }
+
+}
