@@ -69,7 +69,7 @@ body{
 }
 
 .title-text{
-    width: 390px;
+    max-width: 390px;
     margin-right: 5rem;
     display: flex;
     flex-direction: column;
@@ -212,7 +212,53 @@ input:focus{
 }
 
 .footer{
-    background-color: red;
     position: fixed;
-    bottom: 0;
+    bottom: 20px;
+}
+
+.footer svg{
+    margin-right: 0px;
+}
+
+@media (max-width: 1200px) {
+   
+    .full-screen-header{
+        flex-direction: column;
+    }
+
+    .middle-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: auto;
+        min-width: none;
+    }
+
+    .title-text{
+        max-width: auto;
+        margin-right: 0;
+        margin-bottom: 1em;
+        min-width: none;
+    }
+
+    .input-box{
+        max-width: auto;
+        min-width: none;
+    }
+    
+    .nav-top a{
+        display: none;
+    }
+
+    .nav-bar{
+        justify-content: space-around;
+    }
+
+    .footer{
+        display: none;
+    }
+
+
+    
 }
