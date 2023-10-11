@@ -297,6 +297,7 @@ input:focus{
         justify-content: space-around;
         align-items: center;
         padding: 1rem;
+        margin-left: -50px;
 
         position: fixed;
         top: 0;
@@ -346,10 +347,24 @@ input:focus{
         left: 0;
         top: 0;
         bottom: 0;
-        width: 60%;
+        width: 350px;
         background-color: #333;
 
+        z-index: calc(var(--index)-1);
+    }
 
+    .meni-left ul{
+        margin-top: 100px;
+        list-style: none;
+    }
+
+    .meni-left ul li{
+        margin-bottom: 50px;
+    }
+
+    .meni-left ul li a{
+        color: white;
+        text-decoration: none;
     }
 
 }
