@@ -217,7 +217,11 @@ input:focus{
 }
 
 .footer svg{
-    margin-right: 0px;
+    margin-right: 20px;
+}
+
+.meni{
+    display: none;
 }
 
 @media (max-width: 1200px) {
@@ -238,8 +242,10 @@ input:focus{
     .title-text{
         max-width: auto;
         margin-right: 0;
-        margin-bottom: 1em;
+        margin-top: 90px;
+        margin-bottom: 50px;
         min-width: none;
+        text-align: center;
     }
 
     .input-box{
@@ -253,12 +259,24 @@ input:focus{
 
     .nav-bar{
         justify-content: space-around;
+    
     }
 
     .footer{
         display: none;
     }
+    
+    .meni{
+        display: inline;
+        margin-right: 10px;
+        display: flex;
+        background-color: transparent;
+        border: none;
 
+    }
 
+    .meni:hover{
+        cursor: pointer;
+    }
     
 }
